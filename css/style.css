@@ -109,3 +109,11 @@ main {
 #conteneur-tech li {
     line-height: 1.6;
 }
+
+/* Style pour la page de contact */
+.entete-page {
+    height: 200px;
+    text-align: center;
+    align-content: center;
+    background-color: gainsboro;
+}
