@@ -3,14 +3,18 @@
 }
 
 header {
-    background-color: blue;
+    background-color: #2e3440;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    padding: 12px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 footer {
-    background-color: blue;
+    background-color: #2e3440;
     padding: 16px 0px;
 }
 
@@ -31,11 +35,18 @@ footer {
 
 nav ul {
     list-style: none;
+    
 }
 
 .menu a {
     text-decoration: none;
     color: white;
+}
+
+#banner {
+    background-image: url("/images/bannier.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
 }
 
 .menu ul {
