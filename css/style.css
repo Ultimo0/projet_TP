@@ -16,6 +16,7 @@ header {
 footer {
     background-color: #2e3440;
     padding: 16px 0px;
+    text-align: center;
 }
 
 .f-text{
@@ -63,5 +64,48 @@ li a {
 }
 
 main {
-    height: 400px;
+    margin: 20px 35px;
+    display: flex;
+    gap: 20px;
+}
+
+.carte {
+    border: 1px solid #2e3440;
+    width: 500px;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.carte .titre {
+    border-left: 5px solid orange;
+    padding-left: 12px;
+    color: blue;
+}
+
+.carte:last-child .titre {
+    color: green;
+}
+
+.carte p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#conteneur-tech ul {
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+}
+#conteneur-tech ul li::marker {
+    color: orange;
+}
+
+#conteneur-tech {
+    border-left: 2px solid orange;
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+#conteneur-tech li {
+    line-height: 1.6;
 }
